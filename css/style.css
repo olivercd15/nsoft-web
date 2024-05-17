@@ -278,6 +278,8 @@ html{
 
 .features .row .image img{
     width: 100%;
+    border-radius: 15px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1); 
 }
 
 
@@ -300,6 +302,7 @@ html{
     color: var(--Grayish-Blue);
     padding-bottom: 4rem;
 }
+
 /* features section ends */
 
 
@@ -319,7 +322,9 @@ html{
     border-radius: .5rem;
     text-align: center;
     padding: 2.5rem;
+    flex: 1 1 45rem;
 }
+
 .download .box:hover{
     border: 2px solid var(--Soft-Blue);
     box-shadow: none;
@@ -339,6 +344,12 @@ html{
     padding-bottom: 2.5rem;
     color: var(--Grayish-Blue);
 }
+
+
+.logo-download {
+    width: 40%;
+}
+
 
 /* downloads section ends */
 
